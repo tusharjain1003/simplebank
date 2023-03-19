@@ -7,8 +7,8 @@ import (
 
 	"github.com/hibiken/asynq"
 	"github.com/rs/zerolog/log"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/util"
+	db "github.com/tusharjain1003/simplebank/db/sqlc"
+	"github.com/tusharjain1003/simplebank/util"
 )
 
 const TaskSendVerifyEmail = "task:send_verify_email"
